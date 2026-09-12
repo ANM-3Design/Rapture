@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3932368993559296342}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Dock
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43,7 +43,7 @@ GameObject:
   - component: {fileID: 3604544506162365869}
   - component: {fileID: 1552662471191099854}
   - component: {fileID: 7594211093406076191}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: pbf_Canon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -139,7 +139,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5674156732563345836}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pivot / Dir
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -212,13 +212,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8391222552659086748, guid: 4633d7678e35bd14d97f9d90d828767b, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -516098083770646512, guid: 4633d7678e35bd14d97f9d90d828767b, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -466329591000292508, guid: 4633d7678e35bd14d97f9d90d828767b, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -208595431880416365, guid: 4633d7678e35bd14d97f9d90d828767b, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 4633d7678e35bd14d97f9d90d828767b, type: 3}
       propertyPath: m_Name
       value: Canon V3
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 4633d7678e35bd14d97f9d90d828767b, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4633d7678e35bd14d97f9d90d828767b, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8549403022290207516, guid: 4633d7678e35bd14d97f9d90d828767b, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -278,9 +302,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: -2045257923548263128, guid: 40d7926ea78b4c64b9fdcdd4db2db703, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 281855664364225751, guid: 40d7926ea78b4c64b9fdcdd4db2db703, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 40d7926ea78b4c64b9fdcdd4db2db703, type: 3}
       propertyPath: m_Name
       value: Canon V1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 40d7926ea78b4c64b9fdcdd4db2db703, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 40d7926ea78b4c64b9fdcdd4db2db703, type: 3}
       propertyPath: m_IsActive
@@ -344,13 +380,29 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -6763858364670572316, guid: 75e13407a02142d408df349d45c3f35a, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 75e13407a02142d408df349d45c3f35a, type: 3}
       propertyPath: m_Name
       value: Canon V2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 75e13407a02142d408df349d45c3f35a, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 75e13407a02142d408df349d45c3f35a, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8009987137999418058, guid: 75e13407a02142d408df349d45c3f35a, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8485173162082002552, guid: 75e13407a02142d408df349d45c3f35a, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
