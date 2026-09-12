@@ -243,7 +243,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3932368993559296342}
-  - {fileID: 5178690627016548363}
+  - {fileID: 5674156732563345836}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &3604544506162365869
@@ -259,7 +259,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CannonController
   dockPoint: {fileID: 3932368993559296342}
+  pivot: {fileID: 5674156732563345836}
   anim: {fileID: 0}
+  rotateSpeed: 90
+  minAngle: -80
+  maxAngle: 80
 --- !u!136 &1552662471191099854
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -282,7 +286,7 @@ CapsuleCollider:
   m_Radius: 0.7943322
   m_Height: 3.1455808
   m_Direction: 1
-  m_Center: {x: 0.2943322, y: 0.08858132, z: 0}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6371955474335527719
 GameObject:
   m_ObjectHideFlags: 0
@@ -373,6 +377,38 @@ MeshRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &6675339931819094261
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5674156732563345836}
+  m_Layer: 0
+  m_Name: Pivot / Dir
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5674156732563345836
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6675339931819094261}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.7071066, y: -0, z: -0, w: 0.707107}
+  m_LocalPosition: {x: 0, y: -0.13, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5178690627016548363}
+  m_Father: {fileID: 4592070559847052756}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!1 &7401149437860959049
 GameObject:
   m_ObjectHideFlags: 0
@@ -397,13 +433,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7401149437860959049}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 0.7071066, y: -0, z: -0, w: 0.707107}
+  m_LocalPosition: {x: 0, y: 0, z: 0.13}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4098728146370909095}
   - {fileID: 2593871257504232556}
   - {fileID: 8197104629871333204}
-  m_Father: {fileID: 4592070559847052756}
+  m_Father: {fileID: 5674156732563345836}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

@@ -5,39 +5,38 @@ public class ProjectileController : MonoBehaviour
 {
     public Rigidbody rb;
     public bool isDocked = true;
-
     public float nudgeForce = 5f;
+    CannonController currentCannon; // NEW — track which cannon you're docked in
 
     void Update()
     {
         if (!isDocked)
         {
-            float h = Input.GetAxis("Horizontal"); // whatever axis maps to steer
-            rb.AddForce(transform.right * h * nudgeForce); // straight ballistic + nudge, no separate InputManager class
+            float h = Input.GetAxis("Horizontal");
+            rb.AddForce(transform.right * h * nudgeForce);
         }
-        if (isDocked && Input.GetButton("Fire1")) Launch();
-     
-
-    }
-
-    public void DockAt(CannonController cannon)
-    {
-        isDocked = true;
-        rb.isKinematic = false;
-        rb.linearVelocity = Vector3.zero;
-        transform.position = cannon.dockPoint.position;
-        rb.isKinematic = true; // physics off while docked
+        if (isDocked && Input.GetButtonDown("Fire1")) Launch();
     }
 
     void Launch()
     {
-        
-
+        currentCannon?.ReleaseCooldown();
         isDocked = false;
         rb.isKinematic = false;
-        rb.AddForce(transform.forward * 20f, ForceMode.Impulse); // hardcoded launch force, tune by eye
+        Vector3 fireDir = currentCannon.pivot.up;
+        rb.AddForce(fireDir * 20f, ForceMode.Impulse);
+        CameraJuice.Instance.OnFire(); // CHANGED
+    }
 
-
+    public void DockAt(CannonController cannon)
+    {
+        currentCannon = cannon;
+        isDocked = true;
+        rb.isKinematic = false;
+        rb.linearVelocity = Vector3.zero;
+        transform.position = cannon.dockPoint.position;
+        rb.isKinematic = true;
+        CameraJuice.Instance.OnDock(); // CHANGED
     }
 
     void OnCollisionEnter(Collision c)
