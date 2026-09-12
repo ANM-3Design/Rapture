@@ -9,6 +9,7 @@ public class CameraJuice : MonoBehaviour
     CinemachineCamera vcam;
     CinemachineImpulseSource impulseSource;
 
+
     public float defaultFov = 40f;
     public float zoomOutFov = 55f;
     public float punchInFov = 30f;
@@ -25,6 +26,7 @@ public class CameraJuice : MonoBehaviour
         vcam = GetComponent<CinemachineCamera>();
         impulseSource = GetComponent<CinemachineImpulseSource>();
     }
+        
 
     void Start()
     {

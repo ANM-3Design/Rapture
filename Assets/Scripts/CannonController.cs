@@ -3,14 +3,19 @@ using System.Collections;
 
 public class CannonController : MonoBehaviour
 {
+    public Transform nextCannon;
     public Transform dockPoint;
     public Transform pivot;       // NEW — empty object, drag in the Inspector
-    public Animator anim;
+    public Animator stage0Anim, stage1Anim, stage2Anim;
+    public GameObject stage0Visual, stage1Visual, stage2Visual;
     public float rotateSpeed = 90f;   // degrees per second
     public float minAngle = 80f, maxAngle = -80f; // clamp so it can't aim backward — set to -180/180 for full rotation
+    public int stage1Threshold = 3;
+    public int stage2Threshold = 6;
     bool isLoaded;
     bool ignoreDocking;
     float currentAngle = 0f;
+    int currentStage = 0;
 
     void Update()
     {
@@ -34,6 +39,17 @@ public class CannonController : MonoBehaviour
             other.GetComponent<ProjectileController>().DockAt(this);
         }
     }
+    public void UpdateVisual(int failCount)
+    {
+        int stage = 0;
+        if (failCount >= stage2Threshold) stage = 2;
+        else if (failCount >= stage1Threshold) stage = 1;
+
+        currentStage = stage; // NEW
+        stage0Visual.SetActive(stage == 0);
+        stage1Visual.SetActive(stage == 1);
+        stage2Visual.SetActive(stage == 2);
+    }
 
     public void ReleaseCooldown()
     {
@@ -48,6 +64,15 @@ public class CannonController : MonoBehaviour
         ignoreDocking = false;
     }
 
-    public void UpdateVisual(int failCount) => anim.SetInteger("failCount", failCount);
+    public void PlayFireAnimation()
+    { // NEW
+        switch (currentStage)
+        {
+            case 0: stage0Anim.SetTrigger("Fire"); break;
+            case 1: stage1Anim.SetTrigger("Fire"); break;
+            case 2: stage2Anim.SetTrigger("Fire"); break;
+        }
+
+    }
 }
 

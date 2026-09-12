@@ -1262,6 +1262,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5929064787886654629}
     m_Modifications:
+    - target: {fileID: 3604544506162365869, guid: 27ccfbd246d79064a9a8560378153d8a, type: 3}
+      propertyPath: nextCannon
+      value: 
+      objectReference: {fileID: 3165378829256650843}
     - target: {fileID: 4339547460282786248, guid: 27ccfbd246d79064a9a8560378153d8a, type: 3}
       propertyPath: m_Name
       value: pbf_Canon (5)
@@ -2460,6 +2464,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5929064787886654629}
     m_Modifications:
+    - target: {fileID: 3604544506162365869, guid: 27ccfbd246d79064a9a8560378153d8a, type: 3}
+      propertyPath: nextCannon
+      value: 
+      objectReference: {fileID: 8566990335443097991}
     - target: {fileID: 4339547460282786248, guid: 27ccfbd246d79064a9a8560378153d8a, type: 3}
       propertyPath: m_Name
       value: pbf_Canon (10)
@@ -3150,6 +3158,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5929064787886654629}
     m_Modifications:
+    - target: {fileID: 3604544506162365869, guid: 27ccfbd246d79064a9a8560378153d8a, type: 3}
+      propertyPath: nextCannon
+      value: 
+      objectReference: {fileID: 7973295842374354379}
     - target: {fileID: 4339547460282786248, guid: 27ccfbd246d79064a9a8560378153d8a, type: 3}
       propertyPath: m_Name
       value: pbf_Canon (8)
@@ -3968,6 +3980,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5929064787886654629}
     m_Modifications:
+    - target: {fileID: 3604544506162365869, guid: 27ccfbd246d79064a9a8560378153d8a, type: 3}
+      propertyPath: nextCannon
+      value: 
+      objectReference: {fileID: 8396845089647609344}
     - target: {fileID: 4339547460282786248, guid: 27ccfbd246d79064a9a8560378153d8a, type: 3}
       propertyPath: m_Name
       value: pbf_Canon (4)
@@ -4828,7 +4844,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2546995095602335325, guid: 652dec2ab58de794f900e5a24a872529, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.7
+      value: 0.07
       objectReference: {fileID: 0}
     - target: {fileID: 2546995095602335325, guid: 652dec2ab58de794f900e5a24a872529, type: 3}
       propertyPath: m_LocalRotation.w
@@ -8761,6 +8777,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5929064787886654629}
     m_Modifications:
+    - target: {fileID: 3604544506162365869, guid: 27ccfbd246d79064a9a8560378153d8a, type: 3}
+      propertyPath: nextCannon
+      value: 
+      objectReference: {fileID: 7897932544930140844}
     - target: {fileID: 4339547460282786248, guid: 27ccfbd246d79064a9a8560378153d8a, type: 3}
       propertyPath: m_Name
       value: pbf_Canon
@@ -11550,7 +11570,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2546995095602335325, guid: 652dec2ab58de794f900e5a24a872529, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.7
+      value: -0.6
       objectReference: {fileID: 0}
     - target: {fileID: 2546995095602335325, guid: 652dec2ab58de794f900e5a24a872529, type: 3}
       propertyPath: m_LocalRotation.w
@@ -12378,6 +12398,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5929064787886654629}
     m_Modifications:
+    - target: {fileID: 3604544506162365869, guid: 27ccfbd246d79064a9a8560378153d8a, type: 3}
+      propertyPath: nextCannon
+      value: 
+      objectReference: {fileID: 8499997437525906765}
     - target: {fileID: 4339547460282786248, guid: 27ccfbd246d79064a9a8560378153d8a, type: 3}
       propertyPath: m_Name
       value: pbf_Canon (11)
@@ -12582,6 +12606,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5929064787886654629}
     m_Modifications:
+    - target: {fileID: 3604544506162365869, guid: 27ccfbd246d79064a9a8560378153d8a, type: 3}
+      propertyPath: nextCannon
+      value: 
+      objectReference: {fileID: 8269123230515351162}
     - target: {fileID: 4339547460282786248, guid: 27ccfbd246d79064a9a8560378153d8a, type: 3}
       propertyPath: m_Name
       value: pbf_Canon (6)
@@ -12996,6 +13024,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5929064787886654629}
     m_Modifications:
+    - target: {fileID: 3604544506162365869, guid: 27ccfbd246d79064a9a8560378153d8a, type: 3}
+      propertyPath: nextCannon
+      value: 
+      objectReference: {fileID: 4097210933949779590}
     - target: {fileID: 4339547460282786248, guid: 27ccfbd246d79064a9a8560378153d8a, type: 3}
       propertyPath: m_Name
       value: pbf_Canon (7)
@@ -14132,6 +14164,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5929064787886654629}
     m_Modifications:
+    - target: {fileID: 3604544506162365869, guid: 27ccfbd246d79064a9a8560378153d8a, type: 3}
+      propertyPath: nextCannon
+      value: 
+      objectReference: {fileID: 3460087899129642571}
     - target: {fileID: 4339547460282786248, guid: 27ccfbd246d79064a9a8560378153d8a, type: 3}
       propertyPath: m_Name
       value: pbf_Canon (9)
@@ -14390,6 +14426,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5929064787886654629}
     m_Modifications:
+    - target: {fileID: 3604544506162365869, guid: 27ccfbd246d79064a9a8560378153d8a, type: 3}
+      propertyPath: nextCannon
+      value: 
+      objectReference: {fileID: 4692458776543569826}
     - target: {fileID: 4339547460282786248, guid: 27ccfbd246d79064a9a8560378153d8a, type: 3}
       propertyPath: m_Name
       value: pbf_Canon (1)
@@ -16675,6 +16715,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5929064787886654629}
     m_Modifications:
+    - target: {fileID: 3604544506162365869, guid: 27ccfbd246d79064a9a8560378153d8a, type: 3}
+      propertyPath: nextCannon
+      value: 
+      objectReference: {fileID: 2980727127953102992}
     - target: {fileID: 4339547460282786248, guid: 27ccfbd246d79064a9a8560378153d8a, type: 3}
       propertyPath: m_Name
       value: pbf_Canon (3)
@@ -18863,7 +18907,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2546995095602335325, guid: 652dec2ab58de794f900e5a24a872529, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.7
+      value: -0.26
       objectReference: {fileID: 0}
     - target: {fileID: 2546995095602335325, guid: 652dec2ab58de794f900e5a24a872529, type: 3}
       propertyPath: m_LocalRotation.w
@@ -20164,6 +20208,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5929064787886654629}
     m_Modifications:
+    - target: {fileID: 3604544506162365869, guid: 27ccfbd246d79064a9a8560378153d8a, type: 3}
+      propertyPath: nextCannon
+      value: 
+      objectReference: {fileID: 6586696078233261664}
     - target: {fileID: 4339547460282786248, guid: 27ccfbd246d79064a9a8560378153d8a, type: 3}
       propertyPath: m_Name
       value: pbf_Canon (2)

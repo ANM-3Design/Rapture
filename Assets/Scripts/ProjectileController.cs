@@ -6,7 +6,8 @@ public class ProjectileController : MonoBehaviour
     public Rigidbody rb;
     public bool isDocked = true;
     public float nudgeForce = 5f;
-    CannonController currentCannon; // NEW — track which cannon you're docked in
+    public GameObject Camtracker;
+    public CannonController currentCannon; // NEW — track which cannon you're docked in
 
     void Update()
     {

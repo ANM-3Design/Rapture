@@ -143,7 +143,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MovingTerrain
   PointA: {fileID: 2984014919000081629}
   PointB: {fileID: 612805658666459934}
+  TheTerrain: {fileID: 2244550384061566509}
   speed: 0.2
+  rotationSpeed: 2
+  amplitude: 30
+  zAxisOnly: 1
 --- !u!1001 &1777945296916556230
 PrefabInstance:
   m_ObjectHideFlags: 0
