@@ -5043,11 +5043,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd1c50b82b9861428a50f8137c35f8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ProjectileController
+  art: {fileID: 693844623399286814}
   rb: {fileID: 4409076888267280995}
   isDocked: 0
   nudgeForce: 5
   Camtracker: {fileID: 0}
   currentCannon: {fileID: 0}
+  speed: 3
+  amplitude: 30
 --- !u!54 &4409076888267280995
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5190,10 +5193,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2571118854743697038, guid: 47322c631a241384a999f8855449471d, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 8daa754acd713fa47a21166483f5c045, type: 2}
+    - target: {fileID: -1439730007547781893, guid: 47322c631a241384a999f8855449471d, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 8e561b9c97dbcf8458b5d2d49966b7c8, type: 2}
     - target: {fileID: 919132149155446097, guid: 47322c631a241384a999f8855449471d, type: 3}
       propertyPath: m_Name
       value: Soul
       objectReference: {fileID: 0}
+    - target: {fileID: 7071182760956848314, guid: 47322c631a241384a999f8855449471d, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 8e561b9c97dbcf8458b5d2d49966b7c8, type: 2}
+    - target: {fileID: 7202271454713460447, guid: 47322c631a241384a999f8855449471d, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 8e561b9c97dbcf8458b5d2d49966b7c8, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
