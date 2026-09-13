@@ -119,11 +119,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!4 &61929970 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 140923826277991551, guid: fbd06c2a71950d246a6d6fbd63a6ffda, type: 3}
-  m_PrefabInstance: {fileID: 1317628839}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &130933968
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -248,16 +243,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4606144420303521353, guid: 2dfcb8de617b61b47bc4671685fc46d8, type: 3}
   m_PrefabInstance: {fileID: 331176929}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &1043131747 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6737478259642937432, guid: fbd06c2a71950d246a6d6fbd63a6ffda, type: 3}
-  m_PrefabInstance: {fileID: 1317628839}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &1152543280 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7457047490152389369, guid: fbd06c2a71950d246a6d6fbd63a6ffda, type: 3}
-  m_PrefabInstance: {fileID: 1317628839}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1172488977
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -266,6 +251,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1479212931170986328, guid: 574a77e73ad679745968454563ac2c39, type: 3}
+      propertyPath: m_ColorTemperature
+      value: 3155
+      objectReference: {fileID: 0}
+    - target: {fileID: 1479212931170986328, guid: 574a77e73ad679745968454563ac2c39, type: 3}
+      propertyPath: m_CullingMask.m_Bits
+      value: 55
+      objectReference: {fileID: 0}
     - target: {fileID: 3265519823126931733, guid: 574a77e73ad679745968454563ac2c39, type: 3}
       propertyPath: Target.TrackingTarget
       value: 
@@ -327,10 +320,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1237249286872030106, guid: fbd06c2a71950d246a6d6fbd63a6ffda, type: 3}
-      propertyPath: TheTerrain
-      value: 
-      objectReference: {fileID: 1152543280}
     - target: {fileID: 1500327308638325801, guid: fbd06c2a71950d246a6d6fbd63a6ffda, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -371,10 +360,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3158996150320869691, guid: fbd06c2a71950d246a6d6fbd63a6ffda, type: 3}
-      propertyPath: TheTerrain
-      value: 
-      objectReference: {fileID: 1043131747}
     - target: {fileID: 5174242392316609601, guid: fbd06c2a71950d246a6d6fbd63a6ffda, type: 3}
       propertyPath: m_Name
       value: pbf_World
@@ -383,10 +368,6 @@ PrefabInstance:
       propertyPath: nextCannon
       value: 
       objectReference: {fileID: 130933969}
-    - target: {fileID: 8621015569999381788, guid: fbd06c2a71950d246a6d6fbd63a6ffda, type: 3}
-      propertyPath: TheTerrain
-      value: 
-      objectReference: {fileID: 61929970}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
