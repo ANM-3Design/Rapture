@@ -4,7 +4,7 @@ public class AudioManager : MonoBehaviour
 {
     public static AudioManager Instance;
 
-    public AudioSource sfxSource;   // one-shot SFX
+    public AudioSource sfxSource;
     public AudioSource musicSource; // looping ambient music
 
     public AudioClip fireSound;

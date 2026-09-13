@@ -189,6 +189,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8872c096a2ec86c42b07b4f4b3e8a307, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CannonController
+  nextCannon: {fileID: 0}
   dockPoint: {fileID: 3932368993559296342}
   pivot: {fileID: 5674156732563345836}
   stage0Anim: {fileID: 4393681160828378525}
@@ -474,6 +475,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: -8143710011712545758, guid: 40d7926ea78b4c64b9fdcdd4db2db703, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: a1f73b49020bbf3449b4442627be370d, type: 2}
+    - target: {fileID: -7664728788398519507, guid: 40d7926ea78b4c64b9fdcdd4db2db703, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 8e561b9c97dbcf8458b5d2d49966b7c8, type: 2}
     - target: {fileID: -2045257923548263128, guid: 40d7926ea78b4c64b9fdcdd4db2db703, type: 3}
       propertyPath: m_Layer
       value: 6

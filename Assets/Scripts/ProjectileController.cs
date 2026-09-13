@@ -16,7 +16,13 @@ public class ProjectileController : MonoBehaviour
             float h = Input.GetAxis("Horizontal");
             rb.AddForce(transform.right * h * nudgeForce);
         }
-        if (isDocked && Input.GetButtonDown("Fire1")) Launch();
+        if (isDocked && Input.GetButtonDown("Fire1"))
+        {
+            Launch();
+            AudioManager.Instance.PlayFire();
+        }
+        
+
     }
 
     void Launch()
@@ -38,6 +44,7 @@ public class ProjectileController : MonoBehaviour
         transform.position = cannon.dockPoint.position;
         rb.isKinematic = true;
         CameraJuice.Instance.OnDock(); // CHANGED
+       
     }
 
     void OnCollisionEnter(Collision c)

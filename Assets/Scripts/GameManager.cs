@@ -41,6 +41,7 @@ public class GameManager : MonoBehaviour
 
     public void RespawnAtCheckpoint(ProjectileController p)
     {
+        AudioManager.Instance.PlayFail();
         failCount++;
         foreach (var c in allCannons) c.UpdateVisual(failCount);
         p.DockAt(lastCannon);
